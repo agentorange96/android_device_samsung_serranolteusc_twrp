@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,6 +26,9 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := serranolteusc,R890,SCH-R890
 
+# Inherit from proprietary vendor
+-include vendor/samsung/serranolteusc/BoardConfigVendor.mk
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_usc_defconfig
 
@@ -43,10 +46,11 @@ DEVICE_RESOLUTION := 540x960
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=23 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
+LZMA_RAMDISK_TARGETS := boot,recovery
 
 # For debugging decrypt in twrp only!
 #TARGET_USES_LOGD := true 
-# -----------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 
 # Custom RIL class
 BOARD_RIL_CLASS := ../../../device/samsung/serranolteusc/ril/

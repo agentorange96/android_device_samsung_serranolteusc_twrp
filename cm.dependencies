@@ -1,30 +1,38 @@
 [
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
-  },
-  {
+    "remote": "cm",
     "repository": "android_device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common"
+    "target_path": "device/samsung/qcom-common",
+    "revision": "cm-14.1"
   },
   {
+    "remote": "cm",
     "repository": "android_device_samsung_msm8930-common",
-    "target_path": "device/samsung/msm8930-common"
+    "target_path": "device/samsung/msm8930-common",
+    "revision": "cm-14.1"
   },
   {
+    "remote": "cm",
     "repository": "android_device_samsung_serrano-common",
-    "target_path": "device/samsung/serrano-common"
+    "target_path": "device/samsung/serrano-common",
+    "revision": "cm-14.1"
   },
   {
+    "remote": "cm",
     "repository": "android_kernel_samsung_msm8930-common",
-    "target_path": "kernel/samsung/msm8930-common"
+    "target_path": "kernel/samsung/msm8930-common",
+    "revision": "cm-14.1"
   },
   {
+    "remote": "cm",
     "repository": "android_hardware_samsung",
-    "target_path": "hardware/samsung"
+    "target_path": "hardware/samsung",
+    "revision": "cm-14.1"
   },
   {
-    "repository": "android_hardware_qcom_fm",
-    "target_path": "hardware/qcom/fm"
+    "remote": "cm",
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport",
+    "revision": "cm-14.1"
   }
 ]
