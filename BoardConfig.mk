@@ -37,7 +37,7 @@ BOARD_HAVE_NFC := true
 
 # LED
 BOARD_HAVE_MULTI_COLOR_LED := true
-
+http://forums.xdadevelopers.com/
 # RECOVERY TWRP ---------------------------------------------------------------------------------
 RECOVERY_VARIANT := twrp
 TARGET_RECOVERY_DEVICE_DIRS := device/samsung/serranolteusc
@@ -47,6 +47,8 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=23 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
 LZMA_RAMDISK_TARGETS := boot,recovery
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_SAMSUNG := true 
 
 # For debugging decrypt in twrp only!
 #TARGET_USES_LOGD := true 
