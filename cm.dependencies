@@ -1,26 +1,34 @@
 [
   {
     "repository": "LineageOS/android_device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common",
+    "target_path": "device/samsung/qcom-common"
   },
   {
     "repository": "LineageOS/android_device_samsung_msm8930-common",
-    "target_path": "device/samsung/msm8930-common",
+    "target_path": "device/samsung/msm8930-common"
   },
   {
     "repository": "LineageOS/android_device_samsung_serrano-common",
-    "target_path": "device/samsung/serrano-common",
+    "target_path": "device/samsung/serrano-common"
   },
   {
     "repository": "LineageOS/android_kernel_samsung_msm8930-common",
-    "target_path": "kernel/samsung/msm8930-common",
+    "target_path": "kernel/samsung/msm8930-common"
   },
   {
     "repository": "LineageOS/android_hardware_samsung",
-    "target_path": "hardware/samsung",
+    "target_path": "hardware/samsung"
   },
   {
     "repository": "LineageOS/android_external_stlport",
-    "target_path": "external/stlport",
+    "target_path": "external/stlport"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_samsung",
+    "target_path": "vendor/samsung"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
   }
 ]
