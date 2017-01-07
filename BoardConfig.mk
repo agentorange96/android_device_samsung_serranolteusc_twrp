@@ -49,6 +49,9 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=23 androidboot.boot
 LZMA_RAMDISK_TARGETS := boot,recovery
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_SAMSUNG := true 
+TW_NO_REBOOT_BOOTLOADER := true
+TW_INCLUDE_FUSE_EXFAT := true
+TW_INCLUDE_FUSE_NTFS := true
 
 # For debugging decrypt in twrp only!
 #TARGET_USES_LOGD := true 
