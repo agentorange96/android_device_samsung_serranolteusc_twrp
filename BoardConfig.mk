@@ -24,13 +24,13 @@
 -include device/samsung/serrano-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := serranolteusc,R890,SCH-R890
+TARGET_OTA_ASSERT_DEVICE := serranoltevzw,i435L,SCH-i435L
 
 # Inherit from proprietary vendor
--include vendor/samsung/serranolteusc/BoardConfigVendor.mk
+-include vendor/samsung/serranoltevzw/BoardConfigVendor.mk
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_usc_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_vzw_defconfig
 
 # NFC
 BOARD_HAVE_NFC := true
@@ -40,8 +40,8 @@ BOARD_HAVE_MULTI_COLOR_LED := true
 
 # RECOVERY TWRP ---------------------------------------------------------------------------------
 RECOVERY_VARIANT := twrp
-TARGET_RECOVERY_DEVICE_DIRS := device/samsung/serranolteusc
-TARGET_RECOVERY_FSTAB := device/samsung/serranolteusc/twrp.fstab
+TARGET_RECOVERY_DEVICE_DIRS := device/samsung/serranoltevzw
+TARGET_RECOVERY_FSTAB := device/samsung/serranoltevzw/twrp.fstab
 DEVICE_RESOLUTION := 540x960
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
